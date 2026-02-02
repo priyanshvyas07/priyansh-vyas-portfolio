@@ -580,3 +580,20 @@ html {
     background: #ffcc00;
     color: #000;
 }
+
+/* =========================
+   REELS FINAL FIX (ALL DEVICES)
+========================= */
+
+.reel-card {
+  background: #000;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.reel-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background: #000;
+}
