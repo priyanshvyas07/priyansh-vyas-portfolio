@@ -1,0 +1,10 @@
+# ===========================================
+# Robots.txt
+# Website: Priyansh Vyas Portfolio
+# ===========================================
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://priyansh-vyas.vercel.app/sitemap.xml

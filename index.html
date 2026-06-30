@@ -3,17 +3,46 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- Ensures proper responsive behavior on all devices -->
+    <!-- Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Page Title -->
-    <title>Priyansh Vyas | Portfolio </title>
+    <!-- SEO -->
+    <title>Priyansh Vyas | Web Developer, Video Editor & Digital Creator</title>
 
-    <!-- Main Stylesheet -->
+            <meta name="description"
+            content="Official portfolio of Priyansh Vyas showcasing web development, front-end projects, video editing, graphic design, social media marketing, and creative digital solutions.">
+   
+            <meta name="robots" content="index, follow">
+
+    <meta name="author" content="Priyansh Vyas">
+
+    <meta name="theme-color" content="#000000">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://priyansh-vyas.vercel.app/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Priyansh Vyas | Portfolio">
+    <meta property="og:description" content="Portfolio showcasing web development, video editing, graphic design, and digital content creation.">
+    <meta property="og:url" content="https://priyansh-vyas.vercel.app/">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Priyansh Vyas | Portfolio">
+    <meta name="twitter:description" content="Official portfolio of Priyansh Vyas showcasing web development, front-end projects, video editing, graphic design, social media marketing, and creative digital solutions     .">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <!-- Google Font: Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,18 +52,16 @@
 ========================= -->
 <nav class="navbar">
     <div class="logo">
-        <a href="index.html#home">Priyansh Vyas</a>
+        <a href="#home">Priyansh Vyas</a>
     </div>
 
-    <!-- Desktop Navigation Links -->
     <ul class="nav-links">
-        <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#projects">Projects</a></li>
-        <li><a href="index.html#skills">Skills</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 
-    <!-- Mobile Menu Toggle Button -->
     <div class="hamburger" onclick="toggleMenu()">
         <span></span>
         <span></span>
@@ -46,19 +73,23 @@
 <div id="overlay"></div>
 
 <div id="mobileMenu" class="mobile-menu">
-    <a href="index.html#about" onclick="toggleMenu()">About</a>
-    <a href="index.html#projects" onclick="toggleMenu()">Projects</a>
-    <a href="index.html#skills" onclick="toggleMenu()">Skills</a>
-    <a href="index.html#contact" onclick="toggleMenu()">Contact</a>
+    <a href="#home" onclick="toggleMenu()">Home</a>
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#projects" onclick="toggleMenu()">Projects</a>
+    <a href="#skills" onclick="toggleMenu()">Skills</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
 </div>
 
 
 <!-- =========================
      HERO / HEADER SECTION
 ========================= -->
-<header>
-    <h1>Building Modern Digital Experiences</h1>
-    <p>That Connect Creativity With Technology</p>
+<header id="home">
+
+    <h1>Priyansh Vyas | Web Developer, Video Editor & Digital Creator</h1>
+        
+   <p>Building modern digital experiences through web development, creative design, and engaging digital content.</p>
+
     <a href="#contact" class="btn">Let’s Work Together</a>
 </header>
 
@@ -70,18 +101,20 @@
 <h2>About Me</h2>
 
         <div class="about-content">
-        <p class="about-intro">
-        My name is <strong>Priyansh Vyas</strong>. I work as a video editor and handle digital content,
-        mainly for Instagram Reels and music promotions.
-        I focus on creating clean, engaging visuals that feel natural on social media
-        and hold the viewer’s attention.
-        
-        <p class="about-text"></p>
-        Over time, I’ve worked on video editing, basic graphic design, and social media promotion,
-        which has helped me understand what kind of content actually performs online.
-        I prefer keeping things simple, clear, and practical, with an emphasis on quality
-        and consistency in every project I work on.
-        </div>
+
+<p class="about-intro">
+My name is <strong>Priyansh Vyas</strong>. I work as a video editor and handle digital content,
+mainly for Instagram Reels and music promotions. I focus on creating clean, engaging visuals that
+feel natural on social media and hold the viewer's attention.
+</p>
+
+<p class="about-text">
+Over time, I've worked on video editing, basic graphic design, social media marketing, and front-end
+web development. I enjoy building responsive websites and creating digital experiences that combine
+creativity with technology while maintaining simplicity, performance, and user experience.
+</p>
+
+</div>
 </section>
 
 
@@ -97,7 +130,10 @@
         <div class="project-card">
             <h3>Reels Promotion</h3>
 
-            <img src="assets/images/reels-promotion.jpg" alt="Reels Promotion Project">
+           <img
+src="assets/images/reels-promotion.jpg"
+alt="Instagram Reels Promotion Project by Priyansh Vyas"
+loading="lazy">
 
             <a href="reels.html" class="btn">View</a>
         </div>
@@ -106,7 +142,10 @@
         <div class="project-card">
             <h3>Editing & Visual Design</h3>
 
-            <img src="assets/images/editing-visual.jpg" alt="Editing & Visual Design Project">
+<img
+src="assets/images/editing-visual.jpg"
+alt="Video Editing and Graphic Design Portfolio"
+loading="lazy">
 
             <a href="under-maintenance.html" class="btn">Coming Soon</a>
         </div>
@@ -129,11 +168,12 @@
         <h2>Skills</h2>
 
         <ul class="skills-list">
-            <li> Social Media </li>
-            <li>Front End </li>
-            <li>Graphic Designing </li>
-            <li>Video Editing </li>
-            <li>App Devlopment </li>
+           <li>Social Media Marketing</li>
+            <li>Front-End Development</li>
+            <li>Graphic Design</li>
+            <li>Video Editing</li>
+            <li>App Development</li>
+            
         </ul>
 </section>
 
@@ -144,24 +184,29 @@
 <section id="contact" class="section">
         <h2>Contact</h2>
 
-        <p>Let's collaborate! Reach out to me at: <br>haryanvisongs.hits@gmail.com or </p>
+    <p>Email me for collaborations and freelance opportunities.</p>
+
+<a href="mailto:guidingpriyansh@gmail.com">
+guidingpriyansh@gmail.com
+</a>
+
     
         <!-- Social Media Links -->
         <div class="social-links">
 
-        <a href="https://instagram.com/priyansh_vyas07" target="_blank" class="social-icon">
+        <a href="https://instagram.com/priyansh_vyas07" target="_blank" rel="noopener noreferrer" class="social-icon">
         <img src="assets/icons/instagram.svg" alt="Instagram">
         </a>
 
-        <a href="https://www.linkedin.com/in/priyansh-vyas07/" target="_blank" class="social-icon">
+        <a href="https://www.linkedin.com/in/priyansh-vyas07/" target="_blank" rel="noopener noreferrer" class="social-icon">
         <img src="assets/icons/linkedin.svg" alt="LinkedIn">
         </a>
 
-        <a href="https://youtube.com/#" target="_blank" class="social-icon">
+        <a href="https://www.youtube.com/@PriyanshTechYT" target="_blank" rel="noopener noreferrer" class="social-icon">
         <img src="assets/icons/youtube.svg" alt="YouTube">
         </a>
 
-        <a href="https://github.com/priyanshvyas07" target="_blank" class="social-icon">
+        <a href="https://github.com/priyanshvyas07" target="_blank" rel="noopener noreferrer" class="social-icon">
         <img src="assets/icons/github.svg" alt="GitHub">
         </a>
 
@@ -173,8 +218,39 @@
      FOOTER
 ========================= -->
 <footer>
-        <p>© 2025-2026 Priyansh Vyas | All Rights Reserved </p>
+        <p>© 2026 Priyansh Vyas. All Rights Reserved. </p>
 </footer>
+
+
+<!-- =========================
+     JSON-LD Structured Data ================= -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Priyansh Vyas",
+  "url": "https://priyansh-vyas.vercel.app/",
+  "jobTitle": "Web Developer, Video Editor & Digital Creator",
+  "description": "Official portfolio of Priyansh Vyas showcasing web development, front-end projects, video editing, graphic design, social media marketing, and creative digital solutions.",
+  "sameAs": [
+    "https://github.com/priyanshvyas07",
+    "https://www.linkedin.com/in/priyansh-vyas07/",
+    "https://www.instagram.com/priyansh_vyas07/",
+    "https://www.youtube.com/@PriyanshTechYT"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Priyansh Vyas Portfolio",
+  "url": "https://priyansh-vyas.vercel.app/"
+}
+
+</script>
 
 
 <!-- Main JavaScript File -->
