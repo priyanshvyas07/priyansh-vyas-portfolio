@@ -2,17 +2,54 @@
 <html lang="en">
 <head>
 
-  <!-- Character Encoding -->
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-  <!-- Page Title -->
-  <title>Reels Portfolio | Priyansh Vyas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Mobile Responsive View -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram Reels Portfolio | Priyansh Vyas | Video Editing & Creative Work</title>
 
-  <!-- Main Global Stylesheet -->
-  <link rel="stylesheet" href="assets/css/main.css">
+<meta name="description"
+content="Explore Instagram Reels, video editing projects, custom reel covers, social media marketing, and creative digital content created by Priyansh Vyas.">
+
+<meta name="robots" content="index, follow">
+
+<meta name="author" content="Priyansh Vyas">
+
+<meta name="theme-color" content="#000000">
+
+<link rel="canonical"
+href="https://priyansh-vyas.vercel.app/reels.html">
+
+<!-- Open Graph -->
+
+<meta property="og:type" content="website">
+
+<meta property="og:title"
+content="Instagram Reels Portfolio | Priyansh Vyas">
+
+<meta property="og:description"
+content="Explore Instagram Reels, custom reel covers, video editing projects, and creative digital content by Priyansh Vyas.">
+
+<meta property="og:url"
+content="https://priyansh-vyas.vercel.app/reels.html">
+
+<!-- Twitter -->
+
+<meta name="twitter:card"
+content="summary_large_image">
+
+<meta name="twitter:title"
+content="Instagram Reels Portfolio | Priyansh Vyas">
+
+<meta name="twitter:description"
+content="Creative Instagram Reels and video editing portfolio.">
+
+<link rel="icon"
+type="image/png"
+href="favicon.png">
+
+<link rel="stylesheet"
+href="assets/css/main.css">
 
 </head>
 
@@ -26,10 +63,14 @@
 <section class="section">
 
   <!-- Section Heading -->
-  <h2>Reels Portfolio</h2>
+  <h1>Instagram Reels & Video Editing Portfolio</h1>
 
   <!-- Short Description -->
-  <p>Selected Instagram Reels with custom-designed covers.</p>
+  <p>
+Explore a collection of Instagram Reels featuring creative editing,
+custom reel covers, and engaging social media content created by
+Priyansh Vyas.
+</p>
 
 
   <!-- =========================
@@ -56,13 +97,15 @@
   ========================= -->
   <div class="cta" id="viewAll" style="display:none;">
     <a href="https://www.instagram.com/haryanvisongs.hits/reels"
-       target="_blank"
+target="_blank"
+rel="noopener noreferrer"
        class="btn">
        View all reels on Instagram
     </a>
   </div>
 
 </section>
+
 
 
 
@@ -139,7 +182,12 @@
       a.className = "reel-card";
 
       a.innerHTML = `
-        <img src="${reel.img}" alt="Reel">
+
+        <img
+          src="${reel.img}"
+          alt="Instagram Reel Cover created by Priyansh Vyas"
+          loading="lazy">
+
         <span class="play">▶</span>
       `;
 
@@ -165,6 +213,24 @@ loadMoreBtn.addEventListener("click", renderReels);
 
 </script>
 
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"CollectionPage",
+  "name":"Instagram Reels Portfolio",
+  "url":"https://priyansh-vyas.vercel.app/reels.html",
+  "author":{
+    "@type":"Person",
+    "name":"Priyansh Vyas"
+  }
+}
+</script>
+
+
 </body>
+
+
+
+
 </html>
 
